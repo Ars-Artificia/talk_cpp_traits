@@ -23,7 +23,6 @@ struct is_void_trait<int>
 
 
 
-
 //is same
 template<typename A, typename B>
 struct is_same_trait
@@ -39,10 +38,8 @@ struct is_same_trait<A,A>
 
 
 
-
 //lets do something crazy (c++11 type alias)
 template<class T> using is_int_trait = is_same_trait<int,T>;
-
 
 
 
@@ -52,7 +49,9 @@ struct is_pointer_trait
 {
     static const bool value = false;
 };
+
 template<typename T>
-struct is_pointer_trait<T*>{
+struct is_pointer_trait<T*>
+{
     static const bool value = true;
 };

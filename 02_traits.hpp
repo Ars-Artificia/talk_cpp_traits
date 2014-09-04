@@ -38,4 +38,3 @@ void sort(T& container)
 {
     selector<optimised_sort_trait<T>::value>::sort_implementation(container);
 }
-

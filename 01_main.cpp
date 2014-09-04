@@ -11,7 +11,6 @@ int main()
     std::cout << "is_same_trait<void,int>: " << is_same_trait<void,int>::value << std::endl;
     std::cout << "is_same_trait<int,int> : " << is_same_trait<int,int>::value << std::endl;
 
-
     std::cout << "is_int_trait<double>  : " << is_int_trait<double>::value << std::endl;
     std::cout << "is_int_trait<int>     : " << is_int_trait<int>::value << std::endl;
 
