@@ -1,0 +1,29 @@
+Talk on Traits
+# vim: ft=notes
+
+# 01 - Traits ...
+ • can be used in c++ - wikipedia is wrong!
+ • do not require c++11
+
+ • describe traits/properties, Eigenschaften (German)
+
+ • contain information about types
+ • can relate objects without inheritance
+ • are evaluated at compile time
+ • provide default behaviour
+ • are implemented as structs
+ • are all over the stl (especially containers)
+
+# 02 — lets move on to the gory details
+
+And it goes a litte bit some like this:P
+{{{cpp
+trait<T>::property
+}}}
+ • example 01 - warmup
+ • example 02 - select algorithm
+
+# 03 — real life examples
+ • stl containers
+ • char_traits
+ • eigen — use simd if availalbe
