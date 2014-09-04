@@ -27,3 +27,8 @@ trait<T>::property
  • stl containers
  • char_traits
  • eigen — use simd if availalbe
+
+# 04 — link to talk
+ • https://github.com/ObiWahn/talk_cpp_traits
+
+THATS ALL FOLKS - ENDE - FIN - 完
