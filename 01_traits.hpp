@@ -1,4 +1,4 @@
-//// trait that tells us is a given type is a void type
+//// trait that tells us if a given type is a void type
 
 // the default is_void_trait (no further specialization)
 template<typename T>

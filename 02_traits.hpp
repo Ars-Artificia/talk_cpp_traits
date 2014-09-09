@@ -27,7 +27,7 @@ struct selector<true>
     template<typename T>
     static void sort_implementation(T& container)
     {
-        std::cout << "calling special sort" << std::endl;
+        std::cout << "calling specialized sort" << std::endl;
         container.sort();
     }
 };

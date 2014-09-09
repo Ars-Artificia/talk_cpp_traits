@@ -2,10 +2,10 @@ Talk on Traits
 # vim: ft=notes
 
 # 01 - Traits ...
+ • describe traits/properties, Eigenschaften (German)
+
  • can be used in c++ - wikipedia is wrong!
  • do not require c++11
-
- • describe traits/properties, Eigenschaften (German)
 
  • contain information about types
  • can relate objects without inheritance
@@ -31,4 +31,5 @@ trait<T>::property
 # 04 — link to talk
  • https://github.com/ObiWahn/talk_cpp_traits
 
-THATS ALL FOLKS - ENDE - FIN - 完
+
+                  完
