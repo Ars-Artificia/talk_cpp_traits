@@ -26,7 +26,7 @@ trait<T>::property
 # 03 — real life examples
  • stl containers
  • char_traits
- • eigen — use simd if availalbe
+ • eigen — use simd if avaliable
 
 # 04 — link to talk
  • https://github.com/ObiWahn/talk_cpp_traits
